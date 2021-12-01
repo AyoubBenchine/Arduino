@@ -19,11 +19,11 @@ void setup()              // run once, when the sketch starts
 
   if (tempAigua > 100)
   {
-    Serial.println("Aigua supera els 100C, esta bullint!");
+    Serial.println("Aigua supera els 100ºC, esta bullint!");
   } 
   else if (tempAigua < 100)
   {
-    Serial.print("Aigua no supera els 100C, encara no esta bullint!");
+    Serial.print("Aigua no supera els 100ºC, encara no esta bullint!");
   }  
 }
 
