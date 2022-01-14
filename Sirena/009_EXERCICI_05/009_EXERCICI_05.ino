@@ -32,7 +32,7 @@ void loop()
 
   valPot0 = analogRead(pot0);    // llegir valor potenciòmetre 
 
-  tone(xiulet, 1000, valPot0 );    // xiulet de durada valPot0
+  tone(xiulet, 1000, valPot1 );    // xiulet de durada valPot0
   delay(valPot0 + valPot1);              // esperar valPot0 del xiulet + valPot0 silenci
 
 }
